@@ -51,11 +51,22 @@
 # # 10 minutes to complete and share your github link at 11:52
 
 
-# Tuples are IMMUTABLE - CAN'T BE CHANGED
-# Use cases NI number, DOB, place of birth
+# # Tuples are IMMUTABLE - CAN'T BE CHANGED
+# # Use cases NI number, DOB, place of birth
+#
+# # Syntax: we use () to declare a Tuple
+#
+# short_list = ("paracetamol", "eggs", "supermalt")
+# print(type(short_list))
+# short_list[1] = "fruits" # this line of code throws an error as Tuple does not allow us to change anything
 
-# Syntax: we use () to declare a Tuple
+devops_students = {
+    "key": "value",
+    "name": "James",
+    "stream": "tech",
+    "completed_lessons": 4,
+    "completed_lesson_names": ["variables", "data types", "lists"]
 
-short_list = ("paracetamol", "eggs", "supermalt")
-print(type(short_list))
-short_list[1] = "fruits" # this line of code throws an error as Tuple does not allow us to change anything
+}
+
+print(type(devops_students))
