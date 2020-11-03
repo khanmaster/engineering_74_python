@@ -33,19 +33,29 @@
 # # how can we remove the last item from our list that we appended earlier
 # shopping_list.pop()
 # print(shopping_list)
+# #
+# # # How can I replace an item in my list
+# #
+# # shopping_list[1] = "fruits"
+# # print(shopping_list)
+# #
+# # can we have mixed data types in the list
 #
-# # How can I replace an item in my list
+# mixed_shopping_list = [1, 2, 3, "apple", "milk", "bread"]
+# print(mixed_shopping_list)
 #
-# shopping_list[1] = "fruits"
-# print(shopping_list)
-#
-# can we have mixed data types in the list
+# # Task: create a mixed data type list of 7 items
+# # display the type of the data
+# # add, delete, replace, pop
+# # use indexing to print the list in reverse order
+# # 10 minutes to complete and share your github link at 11:52
 
-mixed_shopping_list = [1, 2, 3, "apple", "milk", "bread"]
-print(mixed_shopping_list)
 
-# Task: create a mixed data type list of 7 items
-# display the type of the data
-# add, delete, replace, pop
-# use indexing to print the list in reverse order
-# 10 mintues to complete and share your github link at 11:52
+# Tuples are IMMUTABLE - CAN'T BE CHANGED
+# Use cases NI number, DOB, place of birth
+
+# Syntax: we use () to declare a Tuple
+
+short_list = ("paracetamol", "eggs", "supermalt")
+print(type(short_list))
+short_list[1] = "fruits" # this line of code throws an error as Tuple does not allow us to change anything
