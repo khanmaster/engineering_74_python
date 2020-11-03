@@ -10,7 +10,7 @@ age = 18 # Integer
 hourly_wage = 5 # Integer
 
 travel_allowance = 2.4 # float
-
+print(name)
 # Type of Variable in python
 # String values, Int, Float and Boolean
 

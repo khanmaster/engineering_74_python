@@ -14,3 +14,15 @@
 
 # Sudo coding
 - basically it is a translation of your code
+
+- task:
+create 3 variables to get user data
+
+name
+
+DOB
+
+age
+
+display all the information on command line
+
